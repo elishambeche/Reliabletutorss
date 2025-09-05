@@ -1,0 +1,61 @@
+/* Simplified styles for Reliable Tutors */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fffae6;
+  color: #222;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #fff3b0;
+  padding: 1rem 2rem;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.navbar a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+.btn {
+  background: #f4a300;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.lessons, .tutors, .resources, .form-section {
+  padding: 2rem;
+  text-align: center;
+}
+.lesson-grid, .tutor-grid, .resource-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.lesson-card, .tutor-card, .resource-card {
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+.lesson-card {
+  cursor: pointer;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #fff3b0;
+  margin-top: 2rem;
+}

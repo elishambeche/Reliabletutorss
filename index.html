@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reliable Tutors</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1>Reliable Tutors</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#lessons">Lessons</a></li>
+        <li><a href="#tutors">Tutors</a></li>
+        <li><a href="#form">Request a Lesson</a></li>
+        <li><a href="#resources">Resources</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Find the Right Tutor for You</h2>
+    <a href="#form" class="btn">Request a Lesson</a>
+  </section>
+
+  <section id="lessons" class="lessons">
+    <h2>Lessons We Handle</h2>
+    <div class="lesson-grid">
+      <div class="lesson-card" data-subject="Mathematics - Algebra">Mathematics - Algebra</div>
+      <div class="lesson-card" data-subject="Mathematics - Geometry">Mathematics - Geometry</div>
+      <div class="lesson-card" data-subject="Mathematics - Trigonometry">Mathematics - Trigonometry</div>
+      <div class="lesson-card" data-subject="Mathematics - Calculus">Mathematics - Calculus</div>
+      <div class="lesson-card" data-subject="Mathematics - Linear Algebra">Mathematics - Linear Algebra</div>
+      <div class="lesson-card" data-subject="Mathematics - Probability & Statistics">Mathematics - Probability & Statistics</div>
+      <div class="lesson-card" data-subject="Mathematics - Number Theory">Mathematics - Number Theory</div>
+      <div class="lesson-card" data-subject="Mathematics - Set Theory & Logic">Mathematics - Set Theory & Logic</div>
+      <div class="lesson-card" data-subject="Mathematics - Discrete Mathematics">Mathematics - Discrete Mathematics</div>
+      <div class="lesson-card" data-subject="Mathematics - Differential Equations">Mathematics - Differential Equations</div>
+      <div class="lesson-card" data-subject="English Language & Literature">English Language & Literature</div>
+      <div class="lesson-card" data-subject="Physics">Physics</div>
+      <div class="lesson-card" data-subject="Chemistry">Chemistry</div>
+      <div class="lesson-card" data-subject="Biology">Biology</div>
+      <div class="lesson-card" data-subject="Computer Science & Coding">Computer Science & Coding</div>
+      <div class="lesson-card" data-subject="Business Studies">Business Studies</div>
+      <div class="lesson-card" data-subject="Economics">Economics</div>
+      <div class="lesson-card" data-subject="History">History</div>
+      <div class="lesson-card" data-subject="Geography">Geography</div>
+    </div>
+  </section>
+
+  <section id="tutors" class="tutors">
+    <h2>Our Tutors</h2>
+    <div class="tutor-grid">
+      <div class="tutor-card">
+        <img src="images/placeholder.jpg" alt="Tutor" />
+        <h3>Sample Tutor</h3>
+        <p>Subjects: Editable via CMS</p>
+        <p>Lessons Taught: Editable via CMS</p>
+        <p>Rate: Editable via CMS</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="form" class="form-section">
+    <h2>Request a Lesson</h2>
+    <form action="https://formspree.io/f/mrbaolyv" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="text" id="subject" name="subject" placeholder="Subject" required />
+      <textarea name="message" placeholder="Message" required></textarea>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </section>
+
+  <section id="resources" class="resources">
+    <h2>Resources</h2>
+    <h3>Education Notes</h3>
+    <div class="resource-list">
+      <div class="resource-card">
+        <h4>Sample Note</h4>
+        <p>Description...</p>
+        <a href="#">Download</a>
+      </div>
+    </div>
+    <h3>Done Assignments</h3>
+    <div class="resource-list">
+      <div class="resource-card">
+        <h4>Sample Assignment</h4>
+        <p>Description...</p>
+        <a href="#">Download</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Reliable Tutors</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

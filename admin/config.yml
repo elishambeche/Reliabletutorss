@@ -1,0 +1,47 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "tutors"
+    label: "Tutors"
+    folder: "content/tutors"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Subjects", name: "subjects", widget: "string"}
+      - {label: "Lessons Taught", name: "lessons", widget: "string"}
+      - {label: "Rate", name: "rate", widget: "string"}
+      - {label: "Photo", name: "photo", widget: "image"}
+
+  - name: "education_notes"
+    label: "Education Notes"
+    folder: "content/education_notes"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "File/URL", name: "file", widget: "string"}
+
+  - name: "done_assignments"
+    label: "Done Assignments"
+    folder: "content/done_assignments"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "File/URL", name: "file", widget: "string"}
+
+  - name: "lessons"
+    label: "Lessons"
+    folder: "content/lessons"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Lesson Name", name: "lesson_name", widget: "string"}
